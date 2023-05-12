@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Make all scrollbars invisible */
+/* Webkit-based browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Other browsers */
+* {
+  scrollbar-width: none;
+}
